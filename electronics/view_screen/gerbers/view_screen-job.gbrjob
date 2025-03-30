@@ -5,76 +5,76 @@
       "Application": "Pcbnew",
       "Version": "9.0.0"
     },
-    "CreationDate": "2025-03-28T18:15:13-04:00"
+    "CreationDate": "2025-03-28T18:18:43-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "view_base",
-      "GUID": "76696577-5f62-4617-9365-2e6b69636164",
+      "Name": "view_screen",
+      "GUID": "76696577-5f73-4637-9265-656e2e6b6963",
       "Revision": "rev?"
     },
     "Size": {
-      "X": 81.4,
-      "Y": 81.4
+      "X": 35.2,
+      "Y": 35.2
     },
     "LayerNumber": 2,
-    "BoardThickness": 1.2,
+    "BoardThickness": 1.6,
     "Finish": "None"
   },
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.15,
-      "PadToTrack": 0.15,
-      "TrackToTrack": 0.15,
-      "MinLineWidth": 0.15,
-      "TrackToRegion": 0.2,
-      "RegionToRegion": 0.2
+      "PadToPad": 0.2,
+      "PadToTrack": 0.2,
+      "TrackToTrack": 0.2,
+      "MinLineWidth": 0.25,
+      "TrackToRegion": 0.254,
+      "RegionToRegion": 0.254
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "view_base-F_Cu.gbr",
+      "Path": "view_screen-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "view_base-B_Cu.gbr",
+      "Path": "view_screen-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "view_base-F_Paste.gbr",
+      "Path": "view_screen-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "view_base-B_Paste.gbr",
+      "Path": "view_screen-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "view_base-F_Silkscreen.gbr",
+      "Path": "view_screen-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "view_base-B_Silkscreen.gbr",
+      "Path": "view_screen-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "view_base-F_Mask.gbr",
+      "Path": "view_screen-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "view_base-B_Mask.gbr",
+      "Path": "view_screen-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "view_base-Edge_Cuts.gbr",
+      "Path": "view_screen-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
@@ -82,7 +82,7 @@
   "MaterialStackup": [
     {
       "Type": "Legend",
-      "Color": "Black",
+      "Color": "White",
       "Name": "Top Silk Screen"
     },
     {
@@ -91,7 +91,7 @@
     },
     {
       "Type": "SolderMask",
-      "Color": "White",
+      "Color": "Black",
       "Thickness": 0.01,
       "Name": "Top Solder Mask"
     },
@@ -102,7 +102,7 @@
     },
     {
       "Type": "Dielectric",
-      "Thickness": 1.11,
+      "Thickness": 1.51,
       "Material": "FR4",
       "Name": "F.Cu/B.Cu",
       "Notes": "Type: dielectric layer 1 (from F.Cu to B.Cu)"
@@ -114,7 +114,7 @@
     },
     {
       "Type": "SolderMask",
-      "Color": "White",
+      "Color": "Black",
       "Thickness": 0.01,
       "Name": "Bottom Solder Mask"
     },
@@ -124,7 +124,7 @@
     },
     {
       "Type": "Legend",
-      "Color": "Black",
+      "Color": "White",
       "Name": "Bottom Silk Screen"
     }
   ]

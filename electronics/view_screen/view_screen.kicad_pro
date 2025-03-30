@@ -65,10 +65,6 @@
           ""
         ],
         [
-          "silk_over_copper|92999777|100182112|00000000-0000-0000-0000-0000620c0c43|c8c2fa70-d291-4070-8098-e10360210c12",
-          ""
-        ],
-        [
           "silk_over_copper|94300000|116545391|baf1955b-6681-4a86-aa9e-3d3a086c1f0c|42adbe47-7f38-4bdc-b671-33cfe182fd3c",
           ""
         ]
@@ -522,7 +518,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

@@ -7426,7 +7426,7 @@
 		)
 		(uuid "5c0b1844-4631-446e-ab1d-3c022b65a490")
 	)
-	(text "MCU - ESP32 (T-MICRO32 PLUS)"
+	(text "MCU - ESP32 (S3 Mini 1)"
 		(exclude_from_sim no)
 		(at 304.8 17.78 0)
 		(effects
@@ -8325,7 +8325,7 @@
 	)
 	(wire
 		(pts
-			(xy 381 58.42) (xy 397.51 58.42)
+			(xy 350.52 88.9) (xy 334.01 88.9)
 		)
 		(stroke
 			(width 0)
@@ -8562,6 +8562,16 @@
 			(type default)
 		)
 		(uuid "25fb21f0-99bf-4f60-b804-0db671e1068b")
+	)
+	(wire
+		(pts
+			(xy 346.71 58.42) (xy 350.52 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26865e97-977c-4bef-b8f9-f7057976a71b")
 	)
 	(wire
 		(pts
@@ -9785,6 +9795,16 @@
 	)
 	(wire
 		(pts
+			(xy 346.71 53.34) (xy 350.52 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7daaa434-6ba3-41eb-bb24-f21c0330bf89")
+	)
+	(wire
+		(pts
 			(xy 337.82 214.63) (xy 349.25 214.63)
 		)
 		(stroke
@@ -10292,6 +10312,16 @@
 			(type default)
 		)
 		(uuid "a7112a5a-f78d-4c1f-b8d8-5b056df0e6a0")
+	)
+	(wire
+		(pts
+			(xy 346.71 60.96) (xy 350.52 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a861fb46-1e6c-4bf2-b867-dfd3978347b1")
 	)
 	(wire
 		(pts
@@ -11365,6 +11395,16 @@
 	)
 	(wire
 		(pts
+			(xy 346.71 50.8) (xy 350.52 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7c2add7-e08f-45a1-bfa7-53c3b219bb7e")
+	)
+	(wire
+		(pts
 			(xy 378.46 181.61) (xy 384.81 181.61)
 		)
 		(stroke
@@ -11442,6 +11482,16 @@
 			(type default)
 		)
 		(uuid "ebce698e-cd65-47d0-885a-ba00be92ae14")
+	)
+	(wire
+		(pts
+			(xy 346.71 55.88) (xy 350.52 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec34d577-17ca-44b1-adf1-a4f8c1fb9e93")
 	)
 	(wire
 		(pts
@@ -11934,12 +11984,12 @@
 		(uuid "5401c914-fd27-465c-a823-648b218bd1f6")
 	)
 	(label "TMC_UH"
-		(at 397.51 58.42 180)
+		(at 334.01 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "5f356a85-d663-4d12-89bf-8d57b2b129d8")
 	)
@@ -21485,6 +21535,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 346.71 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0122cb9f-8885-4c02-988d-f4f1d7287274")
+		(property "Reference" "TP12"
+			(at 345.44 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 345.44 49.5301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 351.79 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 351.79 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 346.71 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96e0bb80-7fc8-4693-b42c-7df469e2d93f")
+		)
+		(instances
+			(project ""
+				(path "/5edcefbe-9766-42c8-9529-28d0ec865573"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 143.51 72.39 0)
 		(unit 1)
@@ -21544,6 +21661,73 @@
 			(project "view_base"
 				(path "/5edcefbe-9766-42c8-9529-28d0ec865573"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 346.71 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0706d6a1-b294-42ec-9b30-0cbd1511ee72")
+		(property "Reference" "TP16"
+			(at 345.44 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 345.44 59.6901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 351.79 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 351.79 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 346.71 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b88b8279-efdc-4257-b0b4-827227ccb2aa")
+		)
+		(instances
+			(project "view_base"
+				(path "/5edcefbe-9766-42c8-9529-28d0ec865573"
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -22766,6 +22950,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 346.71 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61756eea-2615-422c-a12a-3862eaf99b55")
+		(property "Reference" "TP15"
+			(at 345.44 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 345.44 57.1501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 351.79 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 351.79 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 346.71 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86f982d2-ba24-4ec9-9cd2-d663bd3ed7a2")
+		)
+		(instances
+			(project "view_base"
+				(path "/5edcefbe-9766-42c8-9529-28d0ec865573"
+					(reference "TP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 367.03 125.73 0)
 		(unit 1)
@@ -22824,6 +23075,73 @@
 			(project "view_base"
 				(path "/5edcefbe-9766-42c8-9529-28d0ec865573"
 					(reference "#PWR0148")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 346.71 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67d1c5d8-190b-47bb-b3b9-8ff54271ce0b")
+		(property "Reference" "TP13"
+			(at 345.44 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 345.44 52.0701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 351.79 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 351.79 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 346.71 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff604321-0bfb-40ce-8915-ab28ac75a040")
+		)
+		(instances
+			(project "view_base"
+				(path "/5edcefbe-9766-42c8-9529-28d0ec865573"
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -24291,6 +24609,73 @@
 			(project "view_base"
 				(path "/5edcefbe-9766-42c8-9529-28d0ec865573"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 346.71 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2ecb41f-216a-432b-8a90-66687e66d9b9")
+		(property "Reference" "TP14"
+			(at 345.44 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 345.44 54.6101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 351.79 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 351.79 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 346.71 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bed72c7-3760-4a2c-95c4-ea7ddaf221a1")
+		)
+		(instances
+			(project "view_base"
+				(path "/5edcefbe-9766-42c8-9529-28d0ec865573"
+					(reference "TP14")
 					(unit 1)
 				)
 			)
