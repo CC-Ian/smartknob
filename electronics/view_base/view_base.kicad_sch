@@ -13812,7 +13812,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2931389"
+		(property "LCSC" " C2931389"
 			(at 121.92 27.94 0)
 			(effects
 				(font
@@ -15527,7 +15527,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412232010_TRINAMIC-Motion-Control-GmbH-TMC6300-LA-T_C5274455.pdf"
 			(at 365.76 191.77 0)
 			(effects
 				(font
@@ -15562,7 +15562,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "N/A"
+		(property "LCSC" "C5274455"
 			(at 365.76 191.77 0)
 			(effects
 				(font
@@ -20837,7 +20837,7 @@
 			)
 		)
 		(property "Value" "VEML7700"
-			(at 56.4388 151.638 0)
+			(at 68.58 133.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21982,6 +21982,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" " C3235557"
+			(at 83.82 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6c6af0b3-251c-4d0f-9d13-e6fe80e98461")
 		)
@@ -22338,6 +22347,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C38066"
+			(at 143.51 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "01d2deda-0089-4c22-8861-f9ff0af5de64")
 		)
@@ -22606,6 +22624,15 @@
 		)
 		(property "Description" "RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, SMD, onboard antenna"
 			(at 365.76 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2913206"
+			(at 365.76 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23604,25 +23631,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C6186, C35879, or others"
-			(at 31.75 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "296-35976-1-ND"
-			(at 31.75 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "821-TS1117BCW33RPG"
+		(property "LCSC" "C6186"
 			(at 31.75 29.21 0)
 			(effects
 				(font
